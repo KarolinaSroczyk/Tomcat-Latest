@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 /usr/local/tomcat/bin/catalina.sh run > /dev/null 2>&1 &
 
