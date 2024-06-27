@@ -16,7 +16,7 @@
 
 import requests
 
-response = requests.get("http://localhost:1337/index.html")
+response = requests.get("http://localhost:1337")
 
 if response.status_code == 200:
     print("Challange is healthy")
